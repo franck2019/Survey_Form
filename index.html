@@ -18,8 +18,8 @@
           <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
           <label id="number-label">Age <span>(optional)</span> <input id="number" type="number" min="10" max="99" placeholder="Age" required/></label>
           <label>What option best describes your current role?
-            <select id="dropdown" name="current-role">
-              <option value="">Select current role</option>
+            <select id="dropdown" name="current-role" required>
+              <option value=""disabled selected>Select current role</option>
               <option value="1">Student</option>
               <option value="2">Full Time Job</option>
               <option value="3">Full Time Learner</option>
@@ -35,8 +35,8 @@
         
         <fieldset>
           <label>What is your favourite of freeCodeCamp?
-            <select id="dropdown" name="current-role">
-              <option value="">Select an option</option>
+            <select id="dropdown" name="current-role" required>
+              <option value=""disabled selected>Select an option</option>
               <option value="1">Challenges</option>
               <option value="2">Projects</option>
               <option value="3">Community</option>
